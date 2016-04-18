@@ -1,0 +1,11 @@
+izquierda_de(Y,X):-derecha_de(X,Y).
+debajo_de(Y,X):-encima_de(X,Y).
+derecha_de(llave,tortuga).
+derecha_de(semaforo,llave).
+derecha_de(martillo,semaforo).
+derecha_de(balanza,cafe).
+encima_de(coche,tortuga).
+encima_de(bombilla,coche).
+encima_de(cafe,semaforo).
+encima_de(lupa,cafe).
+encima_de(balanza,martillo).
