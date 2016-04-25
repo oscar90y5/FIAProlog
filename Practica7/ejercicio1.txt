@@ -1,0 +1,4 @@
+? comida(consome,X,Y).
+?comida_equilibrada(X,Y,naranja).
+?valor(X,Y,Z,500).
+incluir en el codigo de valor: entrada(Entrada), plato_principal(Principal),postre(Postre),
